@@ -366,6 +366,7 @@ table.imgtable, table.imgtable td {
     text-align: left;
 }
 
-hl {
+mark_blue {
     color: #0433FF;
+    background: none;
 }
