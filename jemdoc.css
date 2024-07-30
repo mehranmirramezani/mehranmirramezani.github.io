@@ -192,6 +192,10 @@ dd {
     color: #222222;
 }
 
+mb {
+    color: #0433FF;
+}
+
 dd > *:first-child {
     margin-top: 0;
 }
