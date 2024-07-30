@@ -1,0 +1,84 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light blue background color */
+    color: #333; /* General text color */
+}
+
+/* Header and footer styling */
+header, footer {
+    background-color: #00796b; /* Dark teal background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Heading colors */
+h1, h2, h3 {
+    color: #00796b; /* Dark teal text color for headings */
+}
+
+/* Profile picture styling */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+/* Specific section background colors (optional) */
+#home {
+    background-color: #b2dfdb; /* Light teal background color for Home section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#publications {
+    background-color: #c8e6c9; /* Light green background color for Publications section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#news {
+    background-color: #fff9c4; /* Light yellow background color for News section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Link styling within main content */
+main a {
+    color: #00796b; /* Dark teal text color for links */
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
