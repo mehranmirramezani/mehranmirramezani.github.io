@@ -3,48 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Michael Simchowitz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#news">News</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Michael Simchowitz</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <main>
         <section id="home">
-            <h2>Home</h2>
-            <img src="images/my-photo.jpg" alt="My Photo" class="profile-pic">
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <h3>About</h3>
-            <p>This is a brief introduction about me.</p>
+            <div class="container">
+                <div class="profile">
+                    <img src="images/profile.jpg" alt="Michael Simchowitz">
+                    <p>Email: <a href="mailto:michael@example.com">michael@example.com</a></p>
+                </div>
+                <div class="about">
+                    <h2>About</h2>
+                    <p>Brief introduction about Michael Simchowitz.</p>
+                </div>
+            </div>
         </section>
         
         <section id="publications">
-            <h2>Publications</h2>
-            <ul>
-                <li>Publication 1</li>
-                <li>Publication 2</li>
-                <li>Publication 3</li>
-                <!-- Add more publications as needed -->
-            </ul>
+            <div class="container">
+                <h2>Publications</h2>
+                <ul>
+                    <li>Publication 1</li>
+                    <li>Publication 2</li>
+                    <li>Publication 3</li>
+                </ul>
+            </div>
         </section>
         
         <section id="news">
-            <h2>News</h2>
-            <p>Latest news and updates will be posted here. <span style="color: red;">This part of the text is red,</span> and the rest is black.</p>
+            <div class="container">
+                <h2>News</h2>
+                <p>Latest news and updates. <span style="color: red;">Some text is red</span> and the rest is black.</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Feel free to reach out via email: <a href="mailto:michael@example.com">michael@example.com</a></p>
+            </div>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2024 My Personal Website</p>
+        <div class="container">
+            <p>&copy; 2024 Michael Simchowitz</p>
+        </div>
     </footer>
 </body>
 </html>
