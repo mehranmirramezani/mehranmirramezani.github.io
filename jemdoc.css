@@ -365,3 +365,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+hl {
+    color: #0433FF;
+}
