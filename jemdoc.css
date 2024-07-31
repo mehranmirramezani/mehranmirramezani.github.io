@@ -374,3 +374,7 @@ mark_blue {
     color: #0433FF;
     background: none;
 }
+
+.text-container {
+    padding-top: 20px; /* Adjust the value as needed */
+}
