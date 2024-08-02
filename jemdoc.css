@@ -379,7 +379,7 @@ mark_blue {
     padding-top: 17px; /* Adjust the value as needed */
 }
 
-h4 {
-    padding-left: 0.8em;
+.paragraph-container {
+    width: 70%; /* Adjust this width as needed */
+    margin: 0 auto; /* Center the div */
 }
-
