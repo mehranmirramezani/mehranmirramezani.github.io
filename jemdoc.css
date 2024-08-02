@@ -375,6 +375,16 @@ mark_blue {
     background: none;
 }
 
-.text-container {
-    padding-top: 17px; /* Adjust the value as needed */
+.container {
+    width: 500px; /* Set the desired width */
+    margin: 0 auto; /* Center align the container */
+}
+
+.container img {
+    width: 100%; /* Make the image take the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.container p {
+    margin-top: 10px; /* Add some space between the image and the text */
 }
