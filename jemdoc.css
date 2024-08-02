@@ -380,6 +380,5 @@ mark_blue {
 }
 
 .paragraph-container {
-    width: 70%; /* Adjust this width as needed */
-    margin: 0 auto; /* Center the div */
+    padding-right: 50px; /* Adjust this value as needed */
 }
