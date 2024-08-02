@@ -374,17 +374,3 @@ mark_blue {
     color: #0433FF;
     background: none;
 }
-
-.container {
-    width: 200px; /* Set the desired width */
-    margin: 0 auto; /* Center align the container */
-}
-
-.container img {
-    width: 100%; /* Make the image take the full width of the container */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.container p {
-    margin-top: 10px; /* Add some space between the image and the text */
-}
