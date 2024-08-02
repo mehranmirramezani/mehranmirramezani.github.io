@@ -379,6 +379,7 @@ mark_blue {
     padding-top: 17px; /* Adjust the value as needed */
 }
 
-.paragraph-container {
-    width: 1000px; /* Adjust this width as needed */
+h4 {
+    padding-left: 0.8em;
 }
+
