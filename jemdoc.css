@@ -376,7 +376,7 @@ mark_blue {
 }
 
 .container {
-    width: 500px; /* Set the desired width */
+    width: 1000px; /* Set the desired width */
     margin: 0 auto; /* Center align the container */
 }
 
