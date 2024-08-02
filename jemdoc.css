@@ -378,3 +378,8 @@ mark_blue {
 .text-container {
     padding-top: 17px; /* Adjust the value as needed */
 }
+
+.paragraph-container {
+    width: 70%; /* Adjust this width as needed */
+    margin: 0 auto; /* Center the div */
+}
