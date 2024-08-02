@@ -380,5 +380,6 @@ mark_blue {
 }
 
 .paragraph-container {
-    padding-left: 50px; /* Adjust this value as needed */
+    padding-right: 50px; /* Adjust this value as needed */
+    text-align: left;
 }
