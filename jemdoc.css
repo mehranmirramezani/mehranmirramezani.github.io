@@ -401,5 +401,5 @@ mark_blue {
     width: 47.5%; /* Each video takes up 47.5% of the wrapper width */
     height: 300px; /* Adjust height as needed */
     float: center; /* Float the videos next to each other */
-    margin-right: 15%; /* Add spacing between videos */
+    margin-right: 20%; /* Add spacing between videos */
 }
