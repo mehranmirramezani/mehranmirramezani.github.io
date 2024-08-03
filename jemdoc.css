@@ -383,7 +383,7 @@ mark_blue {
 .video-container video {
     height: 320px; /* Set the desired height */
     width: auto; /* Maintain aspect ratio by adjusting the width automatically */
-    margin-right: 50px; /* Adjust the space between the videos */
+    margin-right: 45px; /* Adjust the space between the videos */
     object-fit: cover; /* Ensure the video content fits within the set dimensions */
 }
 
