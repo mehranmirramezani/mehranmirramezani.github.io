@@ -382,6 +382,6 @@ mark_blue {
 }
 
 .video-container video {
-    max-width: 100%;
-    height: auto;
+    height: 315px; /* Set the desired height */
+    width: auto; /* Maintain aspect ratio by adjusting the width automatically */
 }
