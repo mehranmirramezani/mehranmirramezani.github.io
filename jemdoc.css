@@ -377,12 +377,16 @@ mark_blue {
 
 .video-container {
     display: flex;
-    gap: 200px; /* Adjust the space between the videos */
     justify-content: center; /* Center the videos */
 }
 
 .video-container video {
     height: 315px; /* Set the desired height */
     width: auto; /* Maintain aspect ratio by adjusting the width automatically */
-    object-fit: contain;
+    margin-right: 20px; /* Adjust the space between the videos */
+    object-fit: cover; /* Ensure the video content fits within the set dimensions */
+}
+
+.video-container video:last-child {
+    margin-right: 0; /* Remove the margin for the last video */
 }
