@@ -384,7 +384,7 @@ mark_blue {
 .video-wrapper {
     text-align: center; /* Center the caption text */
     margin-right: 45px; /* Adjust the space between the video wrappers */
-    margin-top: -20px; /* Move the videos up by 20px */
+    margin-top: -10px; /* Move the videos up by 20px */
 }
 
 .video-wrapper:last-child {
