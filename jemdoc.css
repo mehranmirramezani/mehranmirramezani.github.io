@@ -424,7 +424,7 @@ mark_blue {
 
 .media-image {
     width: auto; /* Set the desired width for the image */
-    height: 40%; /* Set the desired height for the image */
+    height: 10%; /* Set the desired height for the image */
     object-fit: cover; /* Ensure the media content fits within the set dimensions */
 }
 
