@@ -407,7 +407,7 @@ mark_blue {
 
 .media-container {
     display: flex;
-    justify-content: left; /* Center the media items */
+    justify-content: flex-start; /* Align items to the start (left) */
     align-items: flex-start; /* Align items at the start of the container */
     padding-top: 20px; /* Add padding to the top of the container */
 }
@@ -420,6 +420,7 @@ mark_blue {
 .media-wrapper:last-child {
     margin-right: 0; /* Remove the margin for the last media item */
 }
+
 
 .media-image {
     width: auto; /* Set the desired width for the image */
