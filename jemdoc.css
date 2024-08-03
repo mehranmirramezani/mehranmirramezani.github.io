@@ -374,3 +374,14 @@ mark_blue {
     color: #0433FF;
     background: none;
 }
+
+.video-container {
+    display: flex;
+    gap: 20px; /* Adjust the space between the videos */
+    justify-content: center; /* Center the videos */
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+}
