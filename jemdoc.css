@@ -399,5 +399,6 @@ mark_blue {
 .caption {
     margin-top: 10px; /* Space between video and caption */
     font-size: 14px; /* Adjust the caption font size */
-    color: #333; /* Adjust the caption color */
+    color: black; /* Adjust the caption color */
+    text-align: center; /* Center the caption text */
 }
