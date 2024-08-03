@@ -375,31 +375,29 @@ mark_blue {
     background: none;
 }
 
+
 .video-container {
     display: flex;
     justify-content: center; /* Center the videos */
 }
 
-.video-container video {
-    height: 320px; /* Set the desired height */
-    width: auto; /* Maintain aspect ratio by adjusting the width automatically */
-    margin-right: 45px; /* Adjust the space between the videos */
-    object-fit: cover; /* Ensure the video content fits within the set dimensions */
+.video-wrapper {
+    text-align: center; /* Center the caption text */
+    margin-right: 45px; /* Adjust the space between the video wrappers */
 }
 
-.video-container video:last-child {
+.video-wrapper:last-child {
     margin-right: 0; /* Remove the margin for the last video */
 }
 
-#wrapper {
-    width: 100%; /* Adjust as needed */
-    margin: 0 auto; /* Center the videos horizontally */
+.video-container video {
+    height: 320px; /* Set the desired height */
+    width: auto; /* Maintain aspect ratio by adjusting the width automatically */
+    object-fit: cover; /* Ensure the video content fits within the set dimensions */
 }
 
-#home1,
-#home2 {
-    width: 47.5%; /* Each video takes up 47.5% of the wrapper width */
-    height: 300px; /* Adjust height as needed */
-    float: center; /* Float the videos next to each other */
-    margin-right: 20%; /* Add spacing between videos */
+.caption {
+    margin-top: 10px; /* Space between video and caption */
+    font-size: 14px; /* Adjust the caption font size */
+    color: #333; /* Adjust the caption color */
 }
