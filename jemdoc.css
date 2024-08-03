@@ -414,7 +414,7 @@ mark_blue {
 
 .media-wrapper {
     text-align: center; /* Center the caption text */
-    margin-right: 20px; /* Adjust the space between the media wrappers */
+    margin-right: 10px; /* Adjust the space between the media wrappers */
 }
 
 .media-wrapper:last-child {
@@ -423,7 +423,7 @@ mark_blue {
 
 
 .media-image {
-    width: auto; /* Set the desired width for the image */
+    width: 500px; /* Set the desired width for the image */
     height: 320px; /* Set the desired height for the image */
     object-fit: cover; /* Ensure the media content fits within the set dimensions */
 }
