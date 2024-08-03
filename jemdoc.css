@@ -423,13 +423,13 @@ mark_blue {
 
 
 .media-image {
-    width: 500px; /* Set the desired width for the image */
-    height: 320px; /* Set the desired height for the image */
+    width: auto; /* Set the desired width for the image */
+    height: 310px; /* Set the desired height for the image */
     object-fit: cover; /* Ensure the media content fits within the set dimensions */
 }
 
 .media-video {
-    width: 400px; /* Set the desired width for the video */
+    width: auto; /* Set the desired width for the video */
     height: 310px; /* Set the desired height for the video */
     object-fit: cover; /* Ensure the media content fits within the set dimensions */
 }
