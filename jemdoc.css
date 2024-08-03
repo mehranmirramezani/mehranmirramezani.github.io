@@ -429,7 +429,7 @@ mark_blue {
 }
 
 .media-video {
-    width: 300px; /* Set the desired width for the video */
+    width: 310px; /* Set the desired width for the video */
     height: 320px; /* Set the desired height for the video */
     object-fit: cover; /* Ensure the media content fits within the set dimensions */
 }
