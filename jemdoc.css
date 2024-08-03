@@ -377,7 +377,7 @@ mark_blue {
 
 .video-container {
     display: flex;
-    gap: 20px; /* Adjust the space between the videos */
+    gap: 200px; /* Adjust the space between the videos */
     justify-content: center; /* Center the videos */
 }
 
