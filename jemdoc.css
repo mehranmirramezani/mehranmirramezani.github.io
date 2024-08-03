@@ -407,7 +407,7 @@ mark_blue {
 
 .media-container {
     display: flex;
-    justify-content: center; /* Center the media items */
+    justify-content: left; /* Center the media items */
     align-items: flex-start; /* Align items at the start of the container */
     padding-top: 20px; /* Add padding to the top of the container */
 }
