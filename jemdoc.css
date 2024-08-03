@@ -424,10 +424,10 @@ mark_blue {
 
 .media-image {
     width: auto; /* Set the desired width for the image */
-    height: 310px; /* Set the desired height for the image */
+    height: 320px; /* Set the desired height for the image */
 }
 
 .media-video {
     width: auto; /* Set the desired width for the video */
-    height: 310px; /* Set the desired height for the video */
+    height: 320px; /* Set the desired height for the video */
 }
