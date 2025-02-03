@@ -40,60 +40,49 @@ try {
 <div class="menu-item"><a href=" "></a></div>
 </td>
 <td id="layout-content">
-<h2>Research Overview</h2>
-<p><img src="images/research_overview.png" align="research" height="360" /></p>
-<p style="margin-top: 10px; width: 753px;"><b>AI-Empowered Engineering Problem-Solving:</b> The overarching vision of my research centers on translation of <i>computational mechanics</i> and <i>machine learning</i> into modern engineering problem-solving and effective decision-making through <i>artificial intelligence</i> across a wide range of applications, including: health and bioscience, engineering design, material sciences, digital twins, etc.</p>
+<h4>Research Overview</h4>
+<p><img src="images/research_overview.png" align="research" height="360" style="margin: 0 200px;"/></p>
+<p style="margin-left: 200px; margin-top: 10px; width: 753px;font-size: 20px;"><b>AI-Empowered Engineering Problem-Solving:</b> The overarching vision of my research centers on translation of <i>computational mechanics</i> and <i>machine learning</i> into modern engineering problem-solving and effective decision-making through <i>artificial intelligence</i> across a wide range of applications, including: health and bioscience, engineering design, material sciences, digital twins, etc.</p>
+
+
 <h2>Learning-Based Modeling and Design</h2>
-<p style="margin-top: 10px; width: 753px;"> This research explores novel learning-based modeling paradigms integrating computational mechanics, <i>machine learning</i> architectures, and optimization techniques to facilitate and automate the design of subject-specific mechanical systems with complex functionalities.</p>
-<p style="margin-left: 10px; width: 753px;"> selected publications</p>
-<p style="margin-left: 10px; margin-top: -10px; width: 753px;"> - <a href="https://arxiv.org/abs/2410.02385">Designing Mechanical Meta-Materials by Learning Equivariant Flows</a></p>
-<p style="margin-left: 10px; margin-top: -10px; width: 753px;"> - <a href="https://www.sciencedirect.com/science/article/pii/S0010465524000134">A Rapid and Automated Computational Approach to the Design of Multistable Soft Actuators</a></p>
-<p style="margin-left: 10px; margin-top: -10px; width: 753px;"> - <a href="https://openreview.net/forum?id=QubsmJT_A0">Neuromechanical Autoencoders: Learning to Couple Elastic and Neural Network Nonlinearity</a></p>
 
-
-<h3>Multifunctional Mechanical Systems Design</h3>
-<p><img src="images/nma.png" align="research" height="355" /></p>
-<p style="margin-top: 10px; width: 753px;"> The central question we try to answer is can we design an <i>intelligent</i> system combining a control system and a mechanical body (structure) such that the intelligent mechanical system performs a set of tasks <i>efficiently</i>? To address this question, we developed a framework inspired by biological systems known as <i>mechanical intelligence</i> whereby biological systems <i>co-evolve</i> their body and cognitive control system to efficiently perform their daily tasks. We developed machine learning analogs of this process in which neural network (control system) parametrs and the pores of a meta-material (body) are <i>jointly</i> optimized to reduce a loss function defining a <i>set</i> of tasks.
-</p>
-<h3>Learning Cellular Meta-Materials</h3>
-<p><img src="images/sym_meta_ex.png" align="research" height="360" /></p>
-<p style="margin-top: 10px; width: 753px;"> The periodic pore structures of <i>meta-materials</i> can be manipulated to achieve desired functionalities. Existing approaches are limited to translational symmetry of a pore unit cell. However, exploiting other spatial patterns can potentially unlock meta-materials with unexpected responses. We developed an ML framework for learning meta-materials that exhibit any 17 2D crystallographic symmetry. This is achieved by transforming a reference geometry according to a neural network flow that is <i>volume/symmetry-preserving</i>. Coupling the NN architecture with a <i>differentiable</i> mechanics simulator enabled the design of meta-materials with exotic behaviors (e.g., negative Poisson's ratio), also verified via fabrication.</p>
-<h2>Cardiovascular Mechanics Modeling</h2>
-<p style="margin-top: 10px; width: 753px;"> Cardiovascular mechanics simulations can uncover functional indicators of cardiovascular diseases (CVD)&mdash;the leading cause of death worldwide&mdash;not revealed through imaging, the primary technology for CVD diagnosis. This research enables development of cardiovascular <b>digital twins</b>&mdash;virtual model of a physical/biological system continually updating with real data&mdash;model for <i>noninvasive</i> and <i>ex situ</i> personalized healthcare decision-making and treatment planning.</p>
-<p style="margin-left: 10px; width: 753px;"> selected publications</p>
-<p style="margin-left: 10px; margin-top: -10px; width: 753px;"> - <a href="https://www.sciencedirect.com/science/article/pii/S0021929022002068">Distributed Lumped Parameter Modeling of Blood Flow in Compliant Vessels</a></p>
-<!-- <p style="margin-left: 10px; margin-top: -10px; width: 753px;"> - <a href="https://www.heraldopenaccess.us/openaccess/mathematical-modeling-of-blood-flow-to-evaluate-the-hemodynamic-significance-of-peripheral-vascular-lesions">Mathematical Modeling of Blood Flow for Noninvasive Assessment of Peripheral Vascular Diseases</a></p> -->
-<!-- <p style="margin-left: 10px; margin-top: -10px; width: 753px;"> - <a href="https://link.springer.com/article/10.1007/s10439-020-02545-6">A Distributed Lumped Parameter Model of Blood Flow</a></p> -->
-<p style="margin-left: 10px; margin-top: -10px; width: 753px;"> - <a href="https://asmedigitalcollection.asme.org/biomechanical/article/141/3/031005/367525/Reduced-Order-Models-for-Transstenotic-Pressure">Reduced Order Models for Transstenotic Pressure Drop in the Coronary Arteries</a></p>
-<p style="margin-left: 10px; margin-top: -10px; width: 753px;"> - <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jth.13986">Platelet Packing Density Is an Independent Regulator of the Hemostatic Response to Injury</a></p>
-
-<h3>Reduced Order Modeling of Blood Flow</h3>
-<p><img src="images/dlp.png" align="research" height="315" /></p>
-<p style="margin-top: 10px; width: 753px;"> Image-based CFD simulations are the modeling standard to study patient-specific blood flow features in the cardiovascular system. However, these simulations are time-consuming and challenging, which prohibit their applications for timely clinical decision-making and perform parametric analyses. Therefore, we developed a <i>phyiscs-based</i> fluid dynamics reduced order model (ROM)&mdash;arguably one of the most effective ROM strategies developed to-date. We leveraged fundamental fluid mechanics principles to propose an ODE system as a lumped parameter (LP) governing equation by considering various sources of energy dissipation of blood flow. We also project the results of our ROM approach back to the 3D model.</p>
-<div class="video-container">
-    <div class="video-wrapper">
-        <video controls>
-            <source src="images/cfd_final.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="caption">3D CFD</div>
+<div style="display: flex; align-items: center;">
+    <img src="images/nma_new.png" width="360" style="margin-right: 15px;" />
+    <div>
+        <p style="width: 670px; margin: 0; font-size: 18px;">
+        This research explores novel learning-based modeling paradigms integrating <i>end-to-end differentiable</i> computational solid/fluid mechanics,
+        <b>machine learning</b> architectures, and optimization techniques to facilitate and automate the design of
+        subject-specific mechanical systems that enable complex and nontrivial functionalities, with applications to designing mechanical metamaterials for biomedical soft robots and assistive devices.
+        </p>
+        
+        <p style="width: 600px; margin: 0; margin-top: 12px; font-size: 16px;"> <u>selected publications</u></p>
+        <p style="width: 670px; margin: 0; margin-top: 0px; font-size: 15px;"> - <a href="https://openreview.net/forum?id=VMurwgAFWP&noteId=CGlzZQmeu3">Designing Mechanical Meta-Materials by Learning Equivariant Flows</a></p>
+        <p style="width: 670px; margin: 0; font-size: 15px;"> - <a href="https://www.sciencedirect.com/science/article/pii/S0010465524000134">A Rapid and Automated Computational Approach to the Design of Multistable Soft Actuators</a></p>
+        <p style="width: 670px; margin: 0; font-size: 15px;"> - <a href="https://openreview.net/forum?id=QubsmJT_A0">Neuromechanical Autoencoders: Learning to Couple Elastic and Neural Network Nonlinearity</a></p>
     </div>
-    <div class="video-wrapper">
-        <video controls>
-            <source src="images/dlp_final.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="caption">ROM</div>
-    </div>
+
 </div>
-<h3>Virtual Treatment Planning via Digital Twins</h3>
-<p><img src="images/surgery_b.png" align="research" width="750" /></p>
-<p style="margin-top: 10px; width: 753px;"> <i>Digital twins</i> of an individual enables to inform complex predictions and decisions earlier and in a more targeted manner. For rxample, one of the common procedures to improve stenotic arteries is stenting. In patients with multiple stenotic lesions it can be difficult to predict where to treat in order to maximize benefit and reduce risk. We developed an <i>interactive</i> digital twins framework to perform various <i>virtual</i> stenting scenarios, which can help clinicians to choose best treatment strategies. An application example to improve coronary artery disease treatment planning is presented in a <a href="https://drive.google.com/file/d/1Hbc5XYKNyvKus_CjG2EKUWSmW5ZMJrmx/view?usp=sharing">software demo</a>. Note: FFR, coronary pressure normalized with aortic pressure, is the disease indicator where lesions with FFR less than 0.8 are flow limiting.
-<h3>Computational Modeling of Thrombosis</h3>
-<p><img src="images/jth.png" align="research" width="750" /></p>
-<p style="margin-top: 10px; width: 753px;">The biophysical and physiological process of thrombosis and haemostasis emerges from a complex cascade of interaction across a broad range of disciplines: hemodynamics, tissue mechanics, cell mechanics, blood chemistry, patient-specific coagulation profiles, genetics, etc. This research focuses on understanding blood clot formation and growth under flow conditions by developing multi-scale and multi-physics computational tools combining physics-based approach, data-driven and machine learning techniques, and in vivo and ex vivo experimental data. For example, a 3D model of a blood clot can be reconstructed from in vivo images using randomly jammed ellipsoids. This model then is used in a Navier-Stokes and advection–diffusion FEM solver to study the coagulation process e.g., Thrombin generation.</p>
-<div id="footer">
-<div id="footer-text">
+
+
+
+<h2>Cardiovascular Mechanics Digital Twins  Modeling</h2>
+
+<div style="display: flex; align-items: center;">
+    <img src="images/dt_health.png" width="360" style="margin-right: 15px;" />
+    <div>
+        <p style="width: 670px; margin: 0; font-size: 18px;">
+        Cardiovascular mechanics simulations can uncover functional indicators of cardiovascular diseases&mdash;the leading cause of death worldwide. This research enables development of cardiovascular <b>digital twins</b>&mdash;virtual model of a physical/biological system continually updating with real data&mdash;through combining data-driven and physics-based reduced-order models for timely, noninvasive, and ex situ personalized healthcare decision-making and treatment planning.
+        </p>
+        
+        <p style="width: 600px; margin: 0; margin-top: 12px; font-size: 16px;"> <u>selected publications</u></p>
+        <p style="width: 670px; margin: 0; margin-top: 0px; font-size: 15px;"> - <a href="https://www.sciencedirect.com/science/article/pii/S0021929022002068">Distributed Lumped Parameter Modeling of Blood Flow in Compliant Vessels</a></p>
+        <p style="width: 670px; margin: 0; font-size: 15px;"> - <a href="https://asmedigitalcollection.asme.org/biomechanical/article/141/3/031005/367525/Reduced-Order-Models-for-Transstenotic-Pressure">Reduced Order Models for Transstenotic Pressure Drop in the Coronary Arteries</a></p>
+        <p style="width: 670px; margin: 0; font-size: 15px;"> - <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jth.13986">Platelet Packing Density Is an Independent Regulator of the Hemostatic Response to Injury</a></p>
+    </div>
+
+</div>
+
 </div>
 </div>
 </td>

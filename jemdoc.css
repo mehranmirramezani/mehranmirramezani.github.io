@@ -116,9 +116,19 @@ strong {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #527bbd;
     margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    padding-bottom: 0.2em;
+    line-height: 1.0;
+    padding-top: 0.5em;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+h4 {
+    color: #527bbd;
+    margin-top: -0.5em;
     margin-bottom: 0.3em;
     padding-bottom: 0.2em;
     line-height: 1.0;
@@ -143,6 +153,12 @@ h3 {
     font-size: 110%;
     border-bottom: none;
 }
+
+h4 {
+    font-size: 150%;
+    border-bottom: none;
+}
+
 
 p {
     margin-top: 0.0em;
